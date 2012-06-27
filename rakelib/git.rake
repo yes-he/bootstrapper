@@ -4,8 +4,8 @@ namespace :git do
   
   desc "configures git variables"
   task :config do
-    sh "git config --global user.name 'Andrea Dal Ponte'"
-    sh "git config --global user.email 'dalpo85@gmail.com'"
+    sh "git config --global user.name 'yesh'"
+    sh "git config --global user.email 'sartori.yeshe@gmail.com'"
     sh "git config --global color.ui true"
     sh "git config --global merge.tool opendiff"
     sh "git config --global core.excludesfile ~/.gitignore"
